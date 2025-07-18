@@ -1,3 +1,5 @@
+import Header from "@/components/layout/Header";
+
 const Users = () => {
   return (
     <div className="container mx-auto px-4 py-8">
