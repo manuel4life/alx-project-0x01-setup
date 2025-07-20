@@ -71,5 +71,5 @@ export interface PostModalProps {
 export interface UserModalProps {
     isOpen: boolean;
     onClose: () => void;
-    onSubmit: (user: Omit<UserData, 'id'>) => void;
+    onSubmit: (post: Omit<UserData, 'id'>) => void;
 }
